@@ -20,5 +20,8 @@ for i in range(len(temp)):
     print(final_champ[i])
     print(role[i])
 
-champ_dict={final_champ[i]:role[i] for i in range(len(final_champ))}
+for i in range(len(final_champ)):
+    if final_champ[i]==final_champ[i+1]:
+        champ_dict={final_champ[i]:[role[i],role[i+1]]}
+        i=i+1
 print(champ_dict)
