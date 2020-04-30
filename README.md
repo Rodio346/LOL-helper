@@ -11,3 +11,5 @@ Website that i will be using to get my data include
 For a proper breif about the game 
 have a look at this article 
 https://mobalytics.gg/blog/absolute-beginners-guide-to-league-of-legends/
+ 
+ new feature enter champion's name to get his details about role 
